@@ -16,7 +16,7 @@
     "react-chartjs-2": "^3.0.4",
     "react-dom": "^17.0.2",
     "react-google-button": "^0.7.2",
-    "react-html-parser": "^0.14.0",
+    "react-html-parser": "^2.0.2",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
@@ -26,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preinstall": "yarn install --force"
   },
   "eslintConfig": {
     "extends": [
