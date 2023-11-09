@@ -27,7 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "preinstall": "yarn install --force"
+    "preinstall": "yarn install --force",
+    "postinstall": "yarn install --force"
   },
   "eslintConfig": {
     "extends": [
